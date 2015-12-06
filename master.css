@@ -270,6 +270,10 @@ tr:hover {
   background: inherit!important;
 }
 
+#side-panel table.pane {
+  margin-left: 16px !important;
+}
+
 table.pane>tbody>tr>td:last-child {
   border-right: none!important;
 }
@@ -443,7 +447,6 @@ table {
 }
 
 td.pane,tr.build-row>td {
-  padding: 0 16px;
   border-left: 1px solid #f0f0f0!important;
   border-bottom: 1px solid #f0f0f0!important;
   text-align: left;
