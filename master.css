@@ -462,6 +462,20 @@ td.pane:first-of-type,td.pane:last-of-type,th.pane:first-of-type,tr.build-row>td
   background: inherit!important;
 }
 
+.build-row .build-row-cell .build-name a.build-link:before {
+  content: "Build ";
+}
+
+.build-row .build-row-cell .build-name-controls {
+  display: inline-block;
+}
+
+.build-row .build-row-cell .build-details.pane {
+  display: inline-block;
+  width: auto;
+  padding-bottom: 9px;
+}
+
 form {
   clear: both;
 }
