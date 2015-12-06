@@ -159,6 +159,11 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus  {
   margin-top: 3px!important;
 }
 
+.yui-skin-sam .yuimenuitemlabel {
+  padding: 4px 8px;
+  min-width: 170px;
+}
+
 #search-form>a {
   padding-bottom: 5px;
 }
