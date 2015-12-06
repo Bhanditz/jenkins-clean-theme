@@ -180,6 +180,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus  {
 }
 
 footer {
+  display: none;
   border-top: 1px solid #ddd!important;
   background: #f4f4f4;
   color: #505050!important;
@@ -270,7 +271,7 @@ tr:hover {
   background: inherit!important;
 }
 
-#side-panel table.pane {
+#executors table.pane, #buildQueue table.pane {
   margin-left: 16px !important;
 }
 
