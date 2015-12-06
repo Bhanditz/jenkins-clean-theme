@@ -51,6 +51,14 @@ body {
   color: white !important;
 }
 
+.login a.model-link.inside {
+  padding-right: 8px !important;
+}
+
+.login a:not(.model-link) {
+  padding-left: 8px;
+}
+
 #main-panel > ul:nth-child(8) > li > img {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -61,7 +69,7 @@ body {
   height: 55px!important;
   padding-top: 15px;
   padding-left: 5px;
-  background: #FA5C5C;
+  background: #326ca6;
   position: relative;
 }
 
@@ -72,8 +80,7 @@ body {
 
 #breadcrumbs {
   background: #326ca6;
-  border-top: 1px solid #036;
-  border-bottom: none!important;
+  border: none !important;
   margin-bottom: 15px;
   padding-left: 8px!important;
   height: 35px!important;
