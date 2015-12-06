@@ -1,9 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+
 body {
     background: #fff!important;
+    font-family: Lato, sans-serif;
 }
 
 #jenkins-head-icon {
     display: none;
+}
+
+#jenkins-home-link img {
+    display: none; 
+}
+
+#jenkins-home-link:after {
+    content: "itch.io CI/CD"
 }
 
 #header .logo {
@@ -33,7 +44,7 @@ body {
     height: 55px!important;
     padding-top: 15px;
     padding-left: 5px;
-    background: #036;
+    background: #FA5C5C;
     position: relative;
 }
 
