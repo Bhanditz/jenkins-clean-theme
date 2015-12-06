@@ -440,7 +440,7 @@ table {
 }
 
 .subtasks,.task {
-  min-height: 38px!important;
+  min-height: 33px!important;
 }
 
 .subtasks:empty {
@@ -627,6 +627,14 @@ td[style="vertical-align:middle"] a[href="ws/"] {
 
 #main-panel h1 img {
   display: none!important;
+}
+
+#main-panel #matrix td.matrix-cell {
+  text-align: left;
+}
+
+td.matrix-cell, td.matrix-leftcolumn, td#matrix-title, td.matrix-header {
+  padding: 7px 5px !important;
 }
 
 textarea {
