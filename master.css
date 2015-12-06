@@ -443,6 +443,7 @@ table {
 }
 
 td.pane,tr.build-row>td {
+  padding: 0 16px;
   border-left: 1px solid #f0f0f0!important;
   border-bottom: 1px solid #f0f0f0!important;
   text-align: left;
