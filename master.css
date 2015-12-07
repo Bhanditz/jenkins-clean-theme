@@ -271,8 +271,8 @@ tr:hover {
   background: inherit!important;
 }
 
-#executors table.pane, #buildQueue table.pane {
-  margin-left: 16px !important;
+#executors table.pane th.pane, #buildQueue .row.pane-content {
+  padding 7px 10px;
 }
 
 table.pane>tbody>tr>td:last-child {
@@ -356,10 +356,14 @@ li.item:hover {
   padding-left: 0!important;
   padding-right: 0!important;
   padding-top: 110px;
-  height: 100%!important;
-  position: absolute!important;
+  height: 110% !important;
+  position: absolute !important;
   border-right: 1px solid #ddd!important;
   width: 300px;
+}
+
+#side-panel td {
+  font-size: 14px !important;
 }
 
 #tasks {
@@ -427,7 +431,7 @@ table {
   padding-bottom: 3px;
 }
 
-#side-panel tr {
+#side-panel tr, #side-panel th, #side-panel td {
   border: none!important;
 }
 
